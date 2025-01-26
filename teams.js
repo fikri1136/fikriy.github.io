@@ -7,7 +7,7 @@ function generateBox(team) {
   img.className = "media";
   img.src = team.image;
   box.appendChild(img);
-  const name = document.createElement("h4");
+  const name = document.createElement("h3");
   name.innerText = team.name;
   box.appendChild(name);
   const email = document.createElement("p");
