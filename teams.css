@@ -2,6 +2,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   color: black;
@@ -85,7 +86,8 @@ p {
 }
 
 h3:hover,
-p:hover {
+p:hover,
+span:hover {
   color: rgb(41, 118, 207);
   transition: ease-out 0.2s;
 }
