@@ -55,7 +55,7 @@ ul {
   width: 100%;
   background-color: white;
   align-items: center;
-  padding: 15px 10px;
+  padding: 15px 10px 15px 15px;
   margin-top: 0;
 }
 
@@ -82,14 +82,18 @@ a:hover {
 }
 
 p {
-  color: grey solid 2px;
+  color: grey 1px;
+}
+
+p:hover {
+   color: black;
+  transition: 0.2s ease-out;
 }
 
 h3:hover,
-p:hover,
 span:hover {
   color: rgb(41, 118, 207);
-  transition: ease-out 0.2s;
+  transition: 0.2 ease-out ;
 }
 
 h3 {
@@ -146,7 +150,4 @@ h3 {
     font-size: 1.3rem;
   }
 
-  .img {
-    border-image: 80vw;
-  }
 }
